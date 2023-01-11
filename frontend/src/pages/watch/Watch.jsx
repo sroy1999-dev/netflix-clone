@@ -10,7 +10,7 @@ const Watch = () => {
         <IoMdArrowBack />
         Home
       </div>
-      <video src={video} autoPlay progress="true" width="1080" controls />
+      <video className='video' src={video} autoPlay progress="true" width="1080" controls />
     </div>
   )
 }
